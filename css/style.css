@@ -1,0 +1,131 @@
+* {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    position: relative;
+   width: 100%;
+    height: 1080px;
+    background: #321A4A;
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.head {
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    left: 160px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 270px;
+    margin-right: auto; 
+    margin-left: 300px; 
+}
+
+.link {
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 100px; 
+    height: 100px;
+}
+
+.main-card {
+    position: absolute;
+    width: 1200px;
+    height: 770px;
+    left: 360px;
+    top: 200px;
+    border: 1px solid #FFFFFF;
+    border-radius: 60px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.subtitle {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.requests-table {
+    position: absolute;
+    width: 900px; 
+    left: 150px;
+    top: 250px; 
+    border-collapse: collapse; 
+}
+
+.requests-table th,
+.requests-table td {
+    border: 1px solid #FFFFFF;
+    height: 70px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 10px; 
+
+}
+
+.th-car, .td-car { width: 330px; }
+.th-date, .td-date { width: 330px; }
+.th-price, .td-price { width: 240px; }
+
+
+.requests-table tfoot tr td {
+    border: 1px solid #FFFFFF;
+    height: 70px;
+    text-align: center; 
+}
+
+.td-sum {
+    font-weight: 400;
+}
+
+.td-total,
+th {
+    font-weight: 400;
+}
