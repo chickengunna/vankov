@@ -33,6 +33,11 @@
 
 }
 
+.logo_p {
+   text-decoration: none;
+
+}
+
 
 .nav-links {
     display: flex;
@@ -129,3 +134,4 @@
 th {
     font-weight: 400;
 }
+
